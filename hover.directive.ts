@@ -9,7 +9,7 @@ export class HoverDirective {
 
   @HostListener('mouseenter') onmouseover(){
     this.renderer.setStyle(this.element.nativeElement, 'margin', '5px 10px');
-    this.renderer.setStyle(this.element.nativeElement, 'padding', '30px 30px'); // feat 3
+    this.renderer.setStyle(this.element.nativeElement, 'padding', '30px 30px'); // feat 3, camb en rem
   }
   @HostListener('mouseleave') onmouseout(){
     this.renderer.setStyle(this.element.nativeElement, 'margin', '10px 20px');
