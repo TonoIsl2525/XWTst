@@ -12,7 +12,7 @@ export class HoverDirective {
     this.renderer.setStyle(this.element.nativeElement, 'padding', '30px 30px'); // feat 3
   }
   @HostListener('mouseleave') onmouseout(){
-    this.renderer.setStyle(this.element.nativeElement, 'margin', '10px 20px');
+    this.renderer.setStyle(this.element.nativeElement, 'margin', '10px 20px'); // con f
     this.renderer.setStyle(this.element.nativeElement, 'transition', '0.5s'); // Un elem
   }
 }
