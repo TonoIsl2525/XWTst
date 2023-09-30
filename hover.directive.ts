@@ -14,6 +14,6 @@ export class HoverDirective {
   }
   @HostListener('mouseleave') onmouseout(){
     this.renderer.setStyle(this.element.nativeElement, 'margin', '10px 20px');
-    this.renderer.setStyle(this.element.nativeElement, 'transition', '0.5s');
+    this.renderer.setStyle(this.element.nativeElement, 'transition', '0.5s'); // Un elem
   }
 }
